@@ -1,0 +1,13 @@
+CLASSIFICACAO PRELIMINAR v4 — PROJETO TESE (A2.3)
+Timestamp: 2025-12-21T10:52:15
+Inventário: C:\PROJETO_2025_TESE\resultados\diagnostico\files_inventory.csv
+Saída CSV:  C:\PROJETO_2025_TESE\resultados\diagnostico\classificacao_preliminar_v4.csv
+
+Total considerados: 1275
+Ignorados (.git/*): 35
+
+Contagem por categoria:
+  TESE_PROVAVEL: 8
+  DADOS_EXTERNOS: 468
+  ACERVO_LIVROS: 799
+  INDETERMINADO: 0
