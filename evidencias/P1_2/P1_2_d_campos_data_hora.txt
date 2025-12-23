@@ -1,0 +1,1 @@
+[P1.2-d] Identificação de campos (UTC)\n- date_col: Data\n- time_col: Hora (UTC)\n- referência de fuso: UTC (sem conversão nesta etapa)\n

@@ -1,6 +1,7 @@
 
 # ===== Dados grandes / binários =====
 *.parquet
+!data/meteorologia_p1_2_temporal.parquet
 *.pq
 
 # ===== Saídas temporárias =====
