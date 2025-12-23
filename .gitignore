@@ -12,3 +12,21 @@ __pycache__/
 .env
 .env.*
 *.conda
+
+# ===== Logs locais =====
+*.log
+
+# ===== Dados intermediários / brutos =====
+dados/
+*_numeric_*.parquet
+*_clean_*.parquet
+
+# ===== Execuções preliminares (não versionar) =====
+resultados/**/run_2025*.log
+resultados/**/conversao_*.json
+resultados/**/limpeza_*.json
+
+# ===== Pastas locais de trabalho =====
+_lixo_tecnico/
+_rascunhos/
+
