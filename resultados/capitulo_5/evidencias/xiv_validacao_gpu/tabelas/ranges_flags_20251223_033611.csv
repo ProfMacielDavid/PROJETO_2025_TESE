@@ -1,0 +1,17 @@
+coluna,min,max,range,flag_invertido,flag_range_muito_alto
+Temp. Ins. (C),18.39999962,33.59999847,15.19999886,False,False
+Temp. Max. (C),18.39999962,34.40000153,16.00000191,False,False
+Temp. Min. (C),16.20000076,33.0,16.79999924,False,False
+Umi. Ins. (%),29.0,98.0,69.0,False,False
+Umi. Max. (%),32.0,98.0,66.0,False,False
+Umi. Min. (%),27.0,97.0,70.0,False,False
+Pto Orvalho Ins. (C),12.69999981,24.5,11.80000019,False,False
+Pto Orvalho Max. (C),13.80000019,25.20000076,11.40000057,False,False
+Pto Orvalho Min. (C),11.30000019,23.70000076,12.40000057,False,False
+Pressao Ins. (hPa),991.7000122,1005.799988,14.09997559,False,False
+Pressao Max. (hPa),992.0999756,1005.900024,13.80004883,False,False
+Pressao Min. (hPa),990.7999878,1005.700012,14.90002441,False,False
+Vel. Vento (m/s),0.100000001,4.0,3.900000095,False,False
+Raj. Vento (m/s),0.600000024,10.39999962,9.799999237,False,False
+Radiacao (KJ/m²),2.099999905,3021.100098,3019.0,False,True
+Chuva (mm),0.0,3.799999952,3.799999952,False,False

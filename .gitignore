@@ -1,0 +1,14 @@
+
+# ===== Dados grandes / binários =====
+*.parquet
+*.pq
+
+# ===== Saídas temporárias =====
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ===== Ambientes =====
+.env
+.env.*
+*.conda

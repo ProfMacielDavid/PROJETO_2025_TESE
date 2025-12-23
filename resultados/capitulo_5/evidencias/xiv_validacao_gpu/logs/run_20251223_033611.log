@@ -1,0 +1,14 @@
+[2025-12-23T07:36:11Z] Início item xiv (GPU). run_id=20251223_033611
+Repo: /mnt/c/PROJETO_2025_TESE
+Parquet: /mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu/meteo_PVH_2017_numeric_clean_20251223_033531.parquet
+CSV: /mnt/c/PROJETO_2025_TESE/dados/capitulo_5/meteorologia/meteo_bruta_PVH_2017_full.csv
+Outdir: /mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu
+[2025-12-23T07:36:11Z] Carregado Parquet em GPU: linhas=744 colunas=19 tempo_s=0.308
+Perfil básico: {'n_linhas': 744, 'n_colunas': 19, 'memoria_gpu_bytes_est': 69277}
+Gerado: /mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu/tabelas/schema_nulos_20251223_033611.csv
+Gerado: /mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu/tabelas/duplicatas_20251223_033611.json -> {'linhas_duplicadas': 0, 'tempo_s': 0.021}
+Gerado: /mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu/tabelas/describe_numerico_20251223_033611.csv
+Gerado: /mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu/tabelas/quantis_numericos_20251223_033611.csv
+Gerado: /mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu/tabelas/ranges_flags_20251223_033611.csv
+Figuras geradas: ['hist_Temp. Ins. (C).png', 'hist_Temp. Max. (C).png', 'hist_Temp. Min. (C).png', 'hist_Umi. Ins. (%).png', 'boxplot_primeiras_colunas.png']
+Metadata: /mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu/metadata/run_20251223_033611.json

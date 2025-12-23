@@ -1,0 +1,5 @@
+quantil,Temp. Ins. (C),Temp. Max. (C),Temp. Min. (C),Umi. Ins. (%),Umi. Max. (%),Umi. Min. (%),Pto Orvalho Ins. (C),Pto Orvalho Max. (C),Pto Orvalho Min. (C),Pressao Ins. (hPa),Pressao Max. (hPa),Pressao Min. (hPa),Vel. Vento (m/s),Raj. Vento (m/s),Radiacao (KJ/m²),Chuva (mm)
+0.01,20.3429994,20.64300055,19.5,34.0,37.43,31.0,14.88600011,16.08600033,13.78599973,992.9000244,993.5,992.4000244,0.200000003,0.899999976,33.58800087,0.0
+0.05,22.70000076,23.21500053,21.81499929,40.0,44.0,37.0,16.89999962,17.70000076,15.89999962,994.5,994.7999878,994.2000122,0.400000006,1.200000048,252.9699966,0.0
+0.95,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+0.99,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN

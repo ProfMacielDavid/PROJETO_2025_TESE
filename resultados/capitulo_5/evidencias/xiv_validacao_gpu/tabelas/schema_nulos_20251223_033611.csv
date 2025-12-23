@@ -1,0 +1,20 @@
+coluna,dtype,nulos
+Data,object,0
+Hora (UTC),object,0
+Temp. Ins. (C),float32,283
+Temp. Max. (C),float32,294
+Temp. Min. (C),float32,294
+Umi. Ins. (%),float32,283
+Umi. Max. (%),float32,294
+Umi. Min. (%),float32,294
+Pto Orvalho Ins. (C),float32,283
+Pto Orvalho Max. (C),float32,294
+Pto Orvalho Min. (C),float32,294
+Pressao Ins. (hPa),float32,283
+Pressao Max. (hPa),float32,294
+Pressao Min. (hPa),float32,294
+Vel. Vento (m/s),float32,284
+Dir. Vento (m/s),object,284
+Raj. Vento (m/s),float32,295
+Radiacao (KJ/m²),float32,395
+Chuva (mm),float32,283

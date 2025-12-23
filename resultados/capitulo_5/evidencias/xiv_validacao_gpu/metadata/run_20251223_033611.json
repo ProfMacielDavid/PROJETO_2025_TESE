@@ -1,0 +1,43 @@
+{
+  "run_id": "20251223_033611",
+  "timestamp_utc": "2025-12-23T07:36:11Z",
+  "python": "3.10.14 (main, Mar 21 2024, 16:24:04) [GCC 11.2.0]",
+  "platform": "Linux-6.6.87.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "cudf": "24.02.02",
+  "cupy": "13.6.0",
+  "numpy": "1.24.4",
+  "git_head": "d70c1bbefa74ef143cfd3b19c5ea835e52db278e",
+  "git_branch": "master",
+  "nvidia_smi": "Tue Dec 23 03:36:11 2025       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.105.07             Driver Version: 581.80         CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 4090        On  |   00000000:01:00.0 Off |                    0 |\n|  0%   30C    P8              5W /  500W |       0MiB /  23028MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+",
+  "paths": {
+    "env_file": "/mnt/c/PROJETO_2025_TESE/configs/cap5_paths.env",
+    "parquet": "/mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu/meteo_PVH_2017_numeric_clean_20251223_033531.parquet",
+    "csv": "/mnt/c/PROJETO_2025_TESE/dados/capitulo_5/meteorologia/meteo_bruta_PVH_2017_full.csv",
+    "outdir": "/mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu"
+  },
+  "input_hashes": {
+    "parquet_sha256": "85a88a57335ae458c54c0767d03e5c08352418100e329b93f2cd225c921a9af1",
+    "csv_sha256": "35661a51f20c393db989959c73c5f3ae9f72d3ea986f21a5430d75d0b333a837"
+  },
+  "profile": {
+    "n_linhas": 744,
+    "n_colunas": 19,
+    "memoria_gpu_bytes_est": 69277
+  },
+  "load_time_s": 0.308,
+  "outputs": {
+    "schema_csv": "/mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu/tabelas/schema_nulos_20251223_033611.csv",
+    "duplicatas_json": "/mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu/tabelas/duplicatas_20251223_033611.json",
+    "describe_csv": "/mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu/tabelas/describe_numerico_20251223_033611.csv",
+    "quantis_csv": "/mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu/tabelas/quantis_numericos_20251223_033611.csv",
+    "ranges_csv": "/mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu/tabelas/ranges_flags_20251223_033611.csv",
+    "figuras": [
+      "hist_Temp. Ins. (C).png",
+      "hist_Temp. Max. (C).png",
+      "hist_Temp. Min. (C).png",
+      "hist_Umi. Ins. (%).png",
+      "boxplot_primeiras_colunas.png"
+    ],
+    "log_file": "/mnt/c/PROJETO_2025_TESE/resultados/capitulo_5/evidencias/xiv_validacao_gpu/logs/run_20251223_033611.log"
+  }
+}
