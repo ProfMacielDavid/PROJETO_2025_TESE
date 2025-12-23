@@ -1,0 +1,17 @@
+[P1.4-g] Verificação pós-limpeza estrutural mínima
+- arquivo verificado: data/meteorologia_p1_4_limpa.parquet
+- linhas: 744
+- colunas: 21
+
+[Campos obrigatórios]
+- date_time: OK
+- scene_id: OK
+
+[Campos que não devem existir]
+- hora_norm: OK (ausente)
+- date_time_raw: OK (ausente)
+- key_t_x_s: OK (ausente)
+- timezone: OK (ausente)
+
+- obrigatórios faltando: 0
+- auxiliares ainda presentes: 0
