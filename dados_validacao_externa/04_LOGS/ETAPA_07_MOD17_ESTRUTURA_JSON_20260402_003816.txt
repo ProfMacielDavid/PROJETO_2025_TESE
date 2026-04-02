@@ -1,0 +1,16 @@
+﻿ARQUIVO_METADATA: D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\03_DOCUMENTACAO\MOD17A2HGF_061_METADATA_20260402_002937.json
+
+PROPRIEDADES_TOPO:
+Gpp_500m
+Psn_QC_500m
+PsnNet_500m
+
+[Gpp_500m] TIPO=System.Management.Automation.PSCustomObject
+  SUBPROPRIEDADES: AddOffset, Available, DataType, Description, Dimensions, FillValue, FillValueAll, Group, Info, IsQA, Layer, OrigDataType, OrigValidMax, OrigValidMin, QualityLayers, QualityProductAndVersion, ScaleFactor, Units, ValidMax, ValidMin, XSize, YSize
+
+[Psn_QC_500m] TIPO=System.Management.Automation.PSCustomObject
+  SUBPROPRIEDADES: AddOffset, Available, DataType, Description, Dimensions, FillValue, FillValueAll, Group, Info, IsQA, Layer, OrigDataType, OrigValidMax, OrigValidMin, QualityLayers, QualityProductAndVersion, ScaleFactor, Units, ValidMax, ValidMin, XSize, YSize
+
+[PsnNet_500m] TIPO=System.Management.Automation.PSCustomObject
+  SUBPROPRIEDADES: AddOffset, Available, DataType, Description, Dimensions, FillValue, FillValueAll, Group, Info, IsQA, Layer, OrigDataType, OrigValidMax, OrigValidMin, QualityLayers, QualityProductAndVersion, ScaleFactor, Units, ValidMax, ValidMin, XSize, YSize
+

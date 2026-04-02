@@ -1,0 +1,4 @@
+﻿PORTAL OFICIAL FLUXNET2015 SUBSET
+URL: https://fluxnet.org/data/download-data/
+PASTA DE DESTINO DOS ARQUIVOS BAIXADOS: D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET
+OBS: baixar o produto SUBSET, preferencialmente em resolução DD, MM ou YY, conforme disponibilidade do sítio escolhido.
