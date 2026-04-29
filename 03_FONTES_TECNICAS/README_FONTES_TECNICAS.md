@@ -17,3 +17,4 @@ Comprovantes, instruções de citação, termos de uso, páginas salvas ou docum
 ## Observação
 
 Esses arquivos não compõem o Apêndice B, pois não são publicações da tese. Eles são fontes técnicas de suporte metodológico e rastreabilidade científica.
+
