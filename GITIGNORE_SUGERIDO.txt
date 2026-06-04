@@ -1,0 +1,58 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporários
+temp/
+tmp/
+cache/
+*.log
+
+# Dados geoespaciais pesados
+*.tif
+*.tiff
+*.img
+*.hdr
+*.hdf
+*.nc
+*.l1r
+
+# Compactados
+*.zip
+*.rar
+*.7z
+
+# Modelos treinados grandes
+*.pkl
+*.joblib
+*.sav
+
+# Credenciais
+*.key
+*.pem
+credentials.json
+token.json
+.env
+
+# LaTeX auxiliares
+*.aux
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
