@@ -1,0 +1,42 @@
+SCRIPT GERADO PARA PRODUZIR AS FIGURAS 4, 5 E 6
+
+Arquivos:
+- Script Python: SCRIPT_GERAR_FIGURAS_04_05_06_HYPERION_20260430_015009_v01.py
+
+Objetivo:
+Gerar, a partir do arquivo STEP06_HYPERION_ACRE_20120709_INDICES_CO2FLUX_v01.tif,
+as seguintes figuras:
+1. Figura 4 – PRI
+2. Figura 5 – sPRI
+3. Figura 6 – CO2Flux
+
+BANDAS DO TIFF:
+- Banda 1 = NDVI
+- Banda 2 = PRI
+- Banda 3 = sPRI
+- Banda 4 = CO2Flux
+
+COMO USAR NO VS CODE:
+1. Salve o arquivo .py em uma pasta do projeto.
+2. Ajuste no script a linha:
+   BASE_DIR = Path(r"C:\Users\macie\Downloads\ARTIGO_CO2_ACRE_HYPERION")
+   para o caminho correto do seu computador.
+3. Certifique-se de que o arquivo TIFF esteja dentro dessa pasta.
+4. Instale as bibliotecas:
+   pip install rasterio matplotlib numpy
+5. Execute:
+   python SCRIPT_GERAR_FIGURAS_04_05_06_HYPERION_20260430_015009_v01.py
+
+SAÍDAS ESPERADAS:
+O script cria a pasta:
+FIGURAS_GERADAS_PY
+
+E exporta:
+- FIGURA_04_PRI_HYPERION_ACRE_PY.png
+- FIGURA_05_sPRI_HYPERION_ACRE_PY.png
+- FIGURA_06_CO2FLUX_HYPERION_ACRE_PY.png
+
+OBSERVAÇÃO:
+Este script usa os dados reais do GeoTIFF para desenhar os pixels válidos e aplicar
+a simbologia temática de cada variável. O layout é em estilo cartográfico acadêmico
+simplificado e pronto para ajuste fino posterior no VS Code ou no QGIS.

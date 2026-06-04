@@ -1,0 +1,82 @@
+STEP09 - VALIDAÇÃO COMPUTACIONAL INDEPENDENTE DO CO2FLUX
+========================================================================
+Ambiente de validação: Python local do ChatGPT sobre arquivos enviados pelo usuário
+Área: Acre / entorno da estação INMET A104 Rio Branco
+Cena Hyperion: EO1H0020662012191110KF_SGS_01
+Data da cena: 2012-07-09
+
+1. Arquivos validados
+- STEP06_HYPERION_ACRE_20120709_PIXEL_TABLE_v01.csv: OK
+- STEP06_HYPERION_ACRE_20120709_SUMMARY_v01.csv: OK
+- STEP06_HYPERION_ACRE_20120709_INDICES_CO2FLUX_v01.tif: OK
+- INMET_N_AC_A104_RIO BRANCO_01-01-2012_A_31-12-2012.CSV: OK
+- STEP08_GRIDSAT_METEO_ACRE_20120709_SUMMARY_v01.csv: OK
+- STEP08_GRIDSAT_METEO_ACRE_20120709_v01.tif: OK
+
+2. Validação algorítmica GEE x Python
+Pixels agrícolas válidos processados: 53
+- NDVI: max_abs_diff=4.65172622643e-08; mean_python=0.704064358971; min_python=0.36675900277; max_python=0.783160322953; std_pop_python=0.130188918302; status=OK
+- PRI: max_abs_diff=3.13799618235e-09; mean_python=0.0327600757569; min_python=0.0174870466321; max_python=0.0438494373302; std_pop_python=0.00664862480113; status=OK
+- sPRI: max_abs_diff=5.21821632571e-08; mean_python=0.516380037878; min_python=0.508743523316; max_python=0.521924718665; std_pop_python=0.00332431240056; status=OK
+- CO2Flux: max_abs_diff=1.41947701238e-06; mean_python=-10.4581596093; min_python=-13.2586628686; max_python=1.27668300238; std_pop_python=4.52103824642; status=OK
+Parecer da validação algorítmica: APROVADA
+
+3. Resumo GEE exportado
+- scene_id: EO1H0020662012191110KF_SGS_01
+- sensor: EO-1 Hyperion
+- data_imagem: 2012-07-09
+- estacao_meteorologica: INMET Rio Branco A104
+- area_agricola_processada_ha: 4.933841265869137
+- NDVI_mean: 0.7040643624539645
+- PRI_mean: 0.0327600758382172
+- sPRI_mean: 0.5163800379191086
+- CO2Flux_mean: -10.458159729732714
+
+4. Validação GeoTIFF STEP06
+- bandas: 4
+- CRS: EPSG:32719
+- dimensões: 993 x 3280
+- NDVI: n=53; mean=0.704064362454; min=0.366759002209; max=0.783160328865; std_pop=0.130188919015
+- PRI: n=53; mean=0.0327600758382; min=0.0174870472401; max=0.0438494384289; std_pop=0.00664862469269
+- sPRI: n=53; mean=0.516380035652; min=0.508743524551; max=0.521924734116; std_pop=0.00332431163803
+- CO2Flux: n=53; mean=-10.4581596924; min=-13.2586631775; max=1.27668297291; std_pop=4.5210382464
+
+5. Validação meteorológica INMET A104
+- Estação: RIO BRANCO / A104
+- Latitude: -9,95777777
+- Longitude: -68,165
+- Altitude: 220 m
+- precipitacao_dia_imagem_mm: 0.2
+- precipitacao_janela_15d_mm: 28.6
+- dias_com_chuva_janela: 2
+- temperatura_media_dia_imagem_C: 19.55
+- temperatura_min_dia_imagem_C: 13.4
+- temperatura_max_dia_imagem_C: 27.6
+- temperatura_media_janela_C: 24.0533333333
+- temperatura_min_janela_C: 13.4
+- temperatura_max_janela_C: 31.8
+- radiacao_global_dia_imagem_kJ_m2: 20907.4
+- radiacao_global_janela_kJ_m2: 274907.1
+- vento_medio_janela_m_s: 0.226666666667
+- rajada_max_janela_m_s: 12.6
+- umidade_media_dia_imagem_pct: 12
+- umidade_media_janela_pct: 13.8789808917
+
+6. Validação meteorológica por satélite GridSat-B1
+- Produto: NOAA CDR GridSat-B1
+- Data/hora Hyperion UTC: 2012-07-09 14:31:34
+- Data/hora GridSat UTC: 2012-07-09 15:00:00
+- Diferença temporal: 28.433333333333334 minutos
+- irwin_cdr_mean_K: 295.032590365 K
+- irwin_cdr_min_K: 292.48 K
+- irwin_cdr_max_K: 298.99 K
+- irwvp_mean_K: 249.268555685 K
+- irwvp_min_K: 247.19 K
+- irwvp_max_K: 250.5 K
+
+7. Parecer consolidado
+- A validação GEE x Python confirma a reprodutibilidade computacional dos índices NDVI, PRI, sPRI e CO2Flux.
+- O GeoTIFF exportado contém 4 bandas e 53 pixels finitos válidos, coerentes com a tabela pixel a pixel.
+- A validação meteorológica de superfície indica precipitação relevante dois dias antes da cena e radiação disponível no dia da imagem.
+- A imagem GridSat-B1, com diferença temporal inferior a 30 minutos em relação à passagem Hyperion, fornece controle atmosférico complementar.
+- Esta validação comprova consistência algorítmica, espacial e atmosférica; não substitui medição direta de fluxo de CO2 em campo.

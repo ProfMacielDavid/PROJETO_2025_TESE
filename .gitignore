@@ -1,0 +1,89 @@
+﻿# ============================================================
+# .gitignore - Tese Prof. Maciel
+# ============================================================
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporários
+temp/
+tmp/
+cache/
+*.log
+
+# Dados geoespaciais e binários pesados
+*.tif
+*.tiff
+*.img
+*.hdr
+*.hdf
+*.nc
+*.l1r
+*.l1t
+*.l1gst
+
+# Compactados
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Modelos treinados grandes
+*.pkl
+*.joblib
+*.sav
+
+# Credenciais
+*.key
+*.pem
+credentials.json
+token.json
+kaggle.json
+
+# LaTeX auxiliares
+*.aux
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Office temporários
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Manifestos internos gerados nas triagens
+_manifestos/
+RELATORIOS_*.zip
+
+# Pastas de recuperação/triagem que não devem ser versionadas
+00_TRIAGEM_GLOBAL_TESE_*/
+00_TRIAGEM_SELETIVA_TESE_*/
+00_RECUPERACAO_CLASSE_A_*/
+00_RECUPERACAO_FINAL_CLASSE_A_*/
+00_ANALISE_GIT_LOCAL_*/
+00_ANALISE_GIT_LOCAL_V2_*/
+00_DIAGNOSTICO_MINIMO_GITHUB_TESE_*/
+00_RETOMADA_INDICE_SCRIPTS_MICROPROCESSOS_*/
+00_INDICE_SCRIPTS_MICROPROCESSOS_TESE_*/

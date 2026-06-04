@@ -1,0 +1,284 @@
+// STEP06_COMPLETO - Calcular e exportar NDVI, PRI, sPRI e CO2Flux
+// Área: Acre, entorno da estação INMET Rio Branco A104
+// Cena: EO1H0020662012191110KF_SGS_01
+// Data: 2012-07-09
+
+// =====================================================
+// 1. CONFIGURAÇÃO DA ÁREA
+// =====================================================
+
+var lon = -67.868889;
+var lat = -9.959167;
+
+var pontoRioBranco = ee.Geometry.Point([lon, lat]);
+var roi120 = pontoRioBranco.buffer(120000);
+
+Map.setCenter(lon, lat, 8);
+Map.addLayer(roi120, {color: 'yellow'}, 'ROI Rio Branco A104 - 120 km');
+Map.addLayer(pontoRioBranco, {color: 'red'}, 'INMET Rio Branco A104');
+
+// =====================================================
+// 2. CARREGAR CENA HYPERION
+// =====================================================
+
+var cena = ee.Image('EO1/HYPERION/EO1H0020662012191110KF_SGS_01');
+
+print('CENA_ESCOLHIDA:', cena);
+print('DATA_CENA:', ee.Date(cena.get('system:time_start')).format('YYYY-MM-dd'));
+print('BANDAS_VALIDAS:', cena.bandNames().size());
+
+// Interseção da cena com a ROI
+var geomCena = cena.geometry().intersection(roi120, ee.ErrorMargin(30));
+
+// =====================================================
+// 3. MAPBIOMAS - MÁSCARA AGRÍCOLA 2012
+// =====================================================
+
+var mapbiomas = ee.Image(
+  'projects/mapbiomas-public/assets/brazil/lulc/collection10/mapbiomas_brazil_collection10_coverage_v2'
+);
+
+var uso2012 = mapbiomas.select('classification_2012');
+
+// Classes agrícolas consideradas:
+// 18 = Agricultura
+// 19 = Lavoura temporária
+// 39 = Soja
+// 40 = Arroz
+// 41 = Outras lavouras temporárias
+var agricultura2012 = uso2012
+  .remap([18, 19, 39, 40, 41], [1, 1, 1, 1, 1])
+  .selfMask();
+
+var mascaraAgricolaCena = agricultura2012.clip(geomCena);
+
+Map.addLayer(
+  mascaraAgricolaCena,
+  {palette: ['orange']},
+  'Agricultura MapBiomas 2012 dentro da cena',
+  true
+);
+
+// =====================================================
+// 4. BANDAS HYPERION E CÁLCULO DOS ÍNDICES
+// =====================================================
+
+// Conversão DN -> radiância aproximada para VNIR: L = DN / 40
+// Bandas aproximadas:
+// B018 ~ 531 nm
+// B022 ~ 570 nm
+// B031 ~ vermelho, próximo de 660 nm
+// B045 ~ NIR, próximo de 800 nm
+
+var b531 = cena.select('B018').divide(40).rename('R531');
+var b570 = cena.select('B022').divide(40).rename('R570');
+var red  = cena.select('B031').divide(40).rename('RED');
+var nir  = cena.select('B045').divide(40).rename('NIR');
+
+// NDVI = (NIR - RED) / (NIR + RED)
+var ndvi = nir.subtract(red)
+  .divide(nir.add(red))
+  .rename('NDVI');
+
+// PRI = (R531 - R570) / (R531 + R570)
+var pri = b531.subtract(b570)
+  .divide(b531.add(b570))
+  .rename('PRI');
+
+// sPRI = (PRI + 1) / 2
+var spri = pri.add(1)
+  .divide(2)
+  .rename('sPRI');
+
+// CO2Flux = 13.63 - 66.207 * (sPRI * NDVI)
+var co2flux = spri.multiply(ndvi)
+  .multiply(66.207)
+  .multiply(-1)
+  .add(13.63)
+  .rename('CO2Flux');
+
+// Aplicar máscara agrícola
+var ndviAgri = ndvi.updateMask(mascaraAgricolaCena);
+var priAgri = pri.updateMask(mascaraAgricolaCena);
+var spriAgri = spri.updateMask(mascaraAgricolaCena);
+var co2fluxAgri = co2flux.updateMask(mascaraAgricolaCena);
+
+// =====================================================
+// 5. VISUALIZAÇÃO
+// =====================================================
+
+Map.addLayer(
+  cena,
+  {
+    bands: ['B050', 'B023', 'B015'],
+    min: 1000,
+    max: 14000,
+    gamma: 2.5
+  },
+  'Hyperion RGB falso-cor preliminar',
+  false
+);
+
+Map.addLayer(
+  ndviAgri,
+  {min: -0.2, max: 0.8, palette: ['brown', 'yellow', 'green']},
+  'NDVI - agricultura',
+  true
+);
+
+Map.addLayer(
+  priAgri,
+  {min: -0.2, max: 0.2, palette: ['purple', 'white', 'green']},
+  'PRI - agricultura',
+  false
+);
+
+Map.addLayer(
+  co2fluxAgri,
+  {min: -40, max: 20, palette: ['green', 'yellow', 'red']},
+  'CO2Flux estimado - agricultura',
+  true
+);
+
+// =====================================================
+// 6. ESTATÍSTICAS
+// =====================================================
+
+var estatisticas = ndviAgri
+  .addBands(priAgri)
+  .addBands(spriAgri)
+  .addBands(co2fluxAgri)
+  .reduceRegion({
+    reducer: ee.Reducer.mean()
+      .combine({reducer2: ee.Reducer.min(), sharedInputs: true})
+      .combine({reducer2: ee.Reducer.max(), sharedInputs: true})
+      .combine({reducer2: ee.Reducer.stdDev(), sharedInputs: true}),
+    geometry: geomCena,
+    scale: 30,
+    maxPixels: 1e9
+  });
+
+print('ESTATISTICAS_INDICES_CO2FLUX:', estatisticas);
+
+var areaAgriHa = ee.Image.pixelArea()
+  .divide(10000)
+  .updateMask(mascaraAgricolaCena)
+  .reduceRegion({
+    reducer: ee.Reducer.sum(),
+    geometry: geomCena,
+    scale: 30,
+    maxPixels: 1e9
+  });
+
+print('AREA_AGRICOLA_PROCESSADA_HA:', areaAgriHa);
+
+// =====================================================
+// 7. EXPORTAÇÕES PARA GOOGLE DRIVE
+// =====================================================
+
+var pastaDrive = 'ARTIGO_CO2_ACRE_HYPERION';
+
+// 7.1 GeoTIFF com NDVI, PRI, sPRI e CO2Flux
+var imagemExport = ndviAgri
+  .addBands(priAgri)
+  .addBands(spriAgri)
+  .addBands(co2fluxAgri)
+  .toFloat()
+  .clip(geomCena);
+
+Export.image.toDrive({
+  image: imagemExport,
+  description: 'STEP06_HYPERION_ACRE_20120709_INDICES_CO2FLUX_v01',
+  folder: pastaDrive,
+  fileNamePrefix: 'STEP06_HYPERION_ACRE_20120709_INDICES_CO2FLUX_v01',
+  region: geomCena,
+  scale: 30,
+  maxPixels: 1e9,
+  fileFormat: 'GeoTIFF'
+});
+
+// 7.2 CSV pixel a pixel
+var tabelaPixelsImagem = b531
+  .addBands(b570)
+  .addBands(red)
+  .addBands(nir)
+  .addBands(ndvi)
+  .addBands(pri)
+  .addBands(spri)
+  .addBands(co2flux)
+  .updateMask(mascaraAgricolaCena)
+  .toFloat();
+
+var pixels = tabelaPixelsImagem.sample({
+  region: geomCena,
+  scale: 30,
+  geometries: true,
+  dropNulls: true
+}).map(function(f) {
+  var coords = f.geometry().coordinates();
+
+  return f.set({
+    lon: coords.get(0),
+    lat: coords.get(1),
+    scene_id: 'EO1H0020662012191110KF_SGS_01',
+    sensor: 'EO-1 Hyperion',
+    data_imagem: '2012-07-09',
+    estacao_meteorologica: 'INMET Rio Branco A104'
+  });
+});
+
+Export.table.toDrive({
+  collection: pixels,
+  description: 'STEP06_HYPERION_ACRE_20120709_PIXEL_TABLE_v01',
+  folder: pastaDrive,
+  fileNamePrefix: 'STEP06_HYPERION_ACRE_20120709_PIXEL_TABLE_v01',
+  fileFormat: 'CSV'
+});
+
+// 7.3 CSV resumo
+var resumo = ee.FeatureCollection([
+  ee.Feature(null, {
+    scene_id: 'EO1H0020662012191110KF_SGS_01',
+    sensor: 'EO-1 Hyperion',
+    data_imagem: '2012-07-09',
+    estacao_meteorologica: 'INMET Rio Branco A104',
+    lon_estacao: lon,
+    lat_estacao: lat,
+
+    area_agricola_processada_ha: areaAgriHa.get('area'),
+
+    NDVI_mean: estatisticas.get('NDVI_mean'),
+    NDVI_min: estatisticas.get('NDVI_min'),
+    NDVI_max: estatisticas.get('NDVI_max'),
+    NDVI_stdDev: estatisticas.get('NDVI_stdDev'),
+
+    PRI_mean: estatisticas.get('PRI_mean'),
+    PRI_min: estatisticas.get('PRI_min'),
+    PRI_max: estatisticas.get('PRI_max'),
+    PRI_stdDev: estatisticas.get('PRI_stdDev'),
+
+    sPRI_mean: estatisticas.get('sPRI_mean'),
+    sPRI_min: estatisticas.get('sPRI_min'),
+    sPRI_max: estatisticas.get('sPRI_max'),
+    sPRI_stdDev: estatisticas.get('sPRI_stdDev'),
+
+    CO2Flux_mean: estatisticas.get('CO2Flux_mean'),
+    CO2Flux_min: estatisticas.get('CO2Flux_min'),
+    CO2Flux_max: estatisticas.get('CO2Flux_max'),
+    CO2Flux_stdDev: estatisticas.get('CO2Flux_stdDev'),
+
+    classes_mapbiomas_consideradas: '18 Agricultura; 19 Lavoura temporaria; 39 Soja; 40 Arroz; 41 Outras lavouras temporarias',
+    modelo_co2flux: 'CO2Flux = 13.63 - 66.207 * (sPRI * NDVI)',
+    observacao_metodologica: 'Estudo piloto com pequena area agricola interceptada por faixa estreita Hyperion.'
+  })
+]);
+
+Export.table.toDrive({
+  collection: resumo,
+  description: 'STEP06_HYPERION_ACRE_20120709_SUMMARY_v01',
+  folder: pastaDrive,
+  fileNamePrefix: 'STEP06_HYPERION_ACRE_20120709_SUMMARY_v01',
+  fileFormat: 'CSV'
+});
+
+print('STEP06_EXPORTS_CRIADOS:', 'Abra a aba Tasks e execute os 3 exports para o Google Drive.');

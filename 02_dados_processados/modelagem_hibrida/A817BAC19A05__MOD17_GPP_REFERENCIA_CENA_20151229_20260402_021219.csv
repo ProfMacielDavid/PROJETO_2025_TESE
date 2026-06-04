@@ -1,0 +1,2 @@
+﻿"ID","Latitude","Longitude","Date","MODIS_Tile","MOD17A2HGF_061_Gpp_500m","MOD17A2HGF_061_Psn_QC_500m_MODLAND_Description","MOD17A2HGF_061_Psn_QC_500m_CloudState_Description","MOD17A2HGF_061_Psn_QC_500m_SCF_QC_Description","DaysDiff"
+"HYPERION_FOOTPRINT_CENTROID","-12.91465","-52.3765","2015-12-27","h12v10","0.0481","Other quality","Significant clouds WERE present","Main (RT) method failed due to problems other than geometry, empirical algorithm","2"

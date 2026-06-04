@@ -1,0 +1,110 @@
+﻿{
+    "Gpp_500m":  {
+                     "AddOffset":  0.0,
+                     "Available":  true,
+                     "DataType":  "float32",
+                     "Description":  "MODIS/Terra Gross Primary Production (GPP) 8-Day L4 Global 500m SIN Grid",
+                     "Dimensions":  [
+                                        "time",
+                                        "YDim",
+                                        "XDim"
+                                    ],
+                     "FillValue":  32767,
+                     "FillValueAll":  [
+                                          32761,
+                                          32762,
+                                          32763,
+                                          32764,
+                                          32765,
+                                          32766,
+                                          32767
+                                      ],
+                     "Group":  "",
+                     "Info":  {
+
+                              },
+                     "IsQA":  false,
+                     "Layer":  "Gpp_500m",
+                     "OrigDataType":  "int16",
+                     "OrigValidMax":  30000,
+                     "OrigValidMin":  0,
+                     "QualityLayers":  "[\u0027Psn_QC_500m\u0027]",
+                     "QualityProductAndVersion":  "MOD17A2HGF.061",
+                     "ScaleFactor":  0.0001,
+                     "Units":  "kgC/m^2/8day",
+                     "ValidMax":  3.0,
+                     "ValidMin":  0.0,
+                     "XSize":  2400,
+                     "YSize":  2400
+                 },
+    "PsnNet_500m":  {
+                        "AddOffset":  0.0,
+                        "Available":  true,
+                        "DataType":  "float32",
+                        "Description":  "MODIS/Terra Net Photosynthesis (GPP - maint resp) 8-Day L4 Global 500m SIN Grid",
+                        "Dimensions":  [
+                                           "time",
+                                           "YDim",
+                                           "XDim"
+                                       ],
+                        "FillValue":  32767,
+                        "FillValueAll":  [
+                                             32761,
+                                             32762,
+                                             32763,
+                                             32764,
+                                             32765,
+                                             32766,
+                                             32767
+                                         ],
+                        "Group":  "",
+                        "Info":  {
+
+                                 },
+                        "IsQA":  false,
+                        "Layer":  "PsnNet_500m",
+                        "OrigDataType":  "int16",
+                        "OrigValidMax":  30000,
+                        "OrigValidMin":  -30000,
+                        "QualityLayers":  "[\u0027Psn_QC_500m\u0027]",
+                        "QualityProductAndVersion":  "MOD17A2HGF.061",
+                        "ScaleFactor":  0.0001,
+                        "Units":  "kgC/m^2/8day",
+                        "ValidMax":  3.0,
+                        "ValidMin":  -3.0,
+                        "XSize":  2400,
+                        "YSize":  2400
+                    },
+    "Psn_QC_500m":  {
+                        "AddOffset":  "",
+                        "Available":  true,
+                        "DataType":  "byte",
+                        "Description":  "Quality control Indicators",
+                        "Dimensions":  [
+                                           "time",
+                                           "YDim",
+                                           "XDim"
+                                       ],
+                        "FillValue":  255,
+                        "FillValueAll":  [
+                                             255
+                                         ],
+                        "Group":  "",
+                        "Info":  {
+
+                                 },
+                        "IsQA":  true,
+                        "Layer":  "Psn_QC_500m",
+                        "OrigDataType":  "byte",
+                        "OrigValidMax":  254,
+                        "OrigValidMin":  0,
+                        "QualityLayers":  "",
+                        "QualityProductAndVersion":  "",
+                        "ScaleFactor":  "",
+                        "Units":  "Bit Field",
+                        "ValidMax":  254.0,
+                        "ValidMin":  0.0,
+                        "XSize":  2400,
+                        "YSize":  2400
+                    }
+}

@@ -1,0 +1,55 @@
+﻿grupo,variavel,valor,unidade,observacao
+GEE_x_Python,pixels_validos,53,pixels,Pixel table STEP06
+GEE_x_Python,NDVI_max_abs_diff,4.65172622643e-08,,tolerancia=1e-5
+Python_recalc,NDVI_mean,0.704064358971,,recalculado por Python
+Python_recalc,NDVI_min,0.36675900277,,recalculado por Python
+Python_recalc,NDVI_max,0.783160322953,,recalculado por Python
+Python_recalc,NDVI_std_pop,0.130188918302,,recalculado por Python
+GEE_x_Python,PRI_max_abs_diff,3.13799618235e-09,,tolerancia=1e-5
+Python_recalc,PRI_mean,0.0327600757569,,recalculado por Python
+Python_recalc,PRI_min,0.0174870466321,,recalculado por Python
+Python_recalc,PRI_max,0.0438494373302,,recalculado por Python
+Python_recalc,PRI_std_pop,0.00664862480113,,recalculado por Python
+GEE_x_Python,sPRI_max_abs_diff,5.21821632571e-08,,tolerancia=1e-5
+Python_recalc,sPRI_mean,0.516380037878,,recalculado por Python
+Python_recalc,sPRI_min,0.508743523316,,recalculado por Python
+Python_recalc,sPRI_max,0.521924718665,,recalculado por Python
+Python_recalc,sPRI_std_pop,0.00332431240056,,recalculado por Python
+GEE_x_Python,CO2Flux_max_abs_diff,1.41947701238e-06,,tolerancia=1e-5
+Python_recalc,CO2Flux_mean,-10.4581596093,,recalculado por Python
+Python_recalc,CO2Flux_min,-13.2586628686,,recalculado por Python
+Python_recalc,CO2Flux_max,1.27668300238,,recalculado por Python
+Python_recalc,CO2Flux_std_pop,4.52103824642,,recalculado por Python
+STEP06_summary,scene_id,EO1H0020662012191110KF_SGS_01,,CSV-resumo GEE
+STEP06_summary,sensor,EO-1 Hyperion,,CSV-resumo GEE
+STEP06_summary,data_imagem,2012-07-09,,CSV-resumo GEE
+STEP06_summary,estacao_meteorologica,INMET Rio Branco A104,,CSV-resumo GEE
+STEP06_summary,area_agricola_processada_ha,4.933841265869137,,CSV-resumo GEE
+STEP06_summary,NDVI_mean,0.7040643624539645,,CSV-resumo GEE
+STEP06_summary,PRI_mean,0.0327600758382172,,CSV-resumo GEE
+STEP06_summary,sPRI_mean,0.5163800379191086,,CSV-resumo GEE
+STEP06_summary,CO2Flux_mean,-10.458159729732714,,CSV-resumo GEE
+INMET_A104,precipitacao_dia_imagem_mm,0.2,mm,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+INMET_A104,precipitacao_janela_15d_mm,28.6,mm,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+INMET_A104,dias_com_chuva_janela,2,dias,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+INMET_A104,temperatura_media_dia_imagem_C,19.55,°C,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+INMET_A104,temperatura_min_dia_imagem_C,13.4,°C,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+INMET_A104,temperatura_max_dia_imagem_C,27.6,°C,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+INMET_A104,temperatura_media_janela_C,24.0533333333,°C,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+INMET_A104,temperatura_min_janela_C,13.4,°C,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+INMET_A104,temperatura_max_janela_C,31.8,°C,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+INMET_A104,radiacao_global_dia_imagem_kJ_m2,20907.4,kJ/m2,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+INMET_A104,radiacao_global_janela_kJ_m2,274907.1,kJ/m2,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+INMET_A104,vento_medio_janela_m_s,0.226666666667,m/s,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+INMET_A104,rajada_max_janela_m_s,12.6,m/s,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+INMET_A104,umidade_media_dia_imagem_pct,12,%,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+INMET_A104,umidade_media_janela_pct,13.8789808917,%,janela 2012-07-01 a 2012-07-15 ou dia 2012-07-09
+GRIDSAT_B1,data_hyperion_utc,2012-07-09 14:31:34,UTC,
+GRIDSAT_B1,data_gridsat_utc,2012-07-09 15:00:00,UTC,
+GRIDSAT_B1,diferenca_minutos_hyperion,28.433333333333334,min,
+GRIDSAT_B1,irwin_cdr_mean_K,295.032590365,K,raw*0.01+200
+GRIDSAT_B1,irwin_cdr_min_K,292.48,K,raw*0.01+200
+GRIDSAT_B1,irwin_cdr_max_K,298.99,K,raw*0.01+200
+GRIDSAT_B1,irwvp_mean_K,249.268555685,K,raw*0.01+200
+GRIDSAT_B1,irwvp_min_K,247.19,K,raw*0.01+200
+GRIDSAT_B1,irwvp_max_K,250.5,K,raw*0.01+200

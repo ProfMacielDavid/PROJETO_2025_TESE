@@ -1,0 +1,16 @@
+﻿CONCLUSAO TECNICA - MOD17A2HGF.061
+
+DATA_ALVO_CENA_HYPERION: 2015-12-29
+DATA_REFERENCIA_MOD17_SELECIONADA: 2015-12-27
+DIFERENCA_DIAS: 2
+MODIS_TILE: h12v10
+GPP_500m_kgC_m2_8day: 0.0481
+QUALIDADE_MODLAND: Other quality
+ESTADO_NUVENS: Significant clouds WERE present
+SCF_QC: Main (RT) method failed due to problems other than geometry, empirical algorithm
+
+INTERPRETACAO:
+1. O MOD17A2HGF.061 nao forneceu observacao exatamente em 2015-12-29, mas o composto mais proximo foi 2015-12-27.
+2. O valor de referencia externa de GPP associado ao ponto do centróide foi 0,0481 kgC/m^2/8day.
+3. O registro selecionado apresenta qualidade MODLAND classificada como 'Other quality' e indica presenca significativa de nuvens.
+4. Portanto, o dado pode ser usado como referencia externa aproximada de GPP, com registro explicito de sua limitacao de qualidade e da diferenca temporal de 2 dias em relacao a cena Hyperion.

@@ -1,0 +1,23 @@
+[P1.4-f] Remoção controlada de campos auxiliares (limpeza estrutural mínima)
+- entrada: data/meteorologia_p1_3_espacial.parquet
+- saída  : data/meteorologia_p1_4_limpa.parquet
+
+- linhas antes: 744
+- linhas depois: 744
+
+[Campos definidos para remoção]
+- hora_norm
+- date_time_raw
+- key_t_x_s
+- timezone
+
+[Campos removidos (presentes no dataset)]
+- hora_norm
+- date_time_raw
+- key_t_x_s
+- timezone
+[Campos não encontrados (já ausentes)]
+- (nenhum)
+
+- colunas antes: 25
+- colunas depois: 21

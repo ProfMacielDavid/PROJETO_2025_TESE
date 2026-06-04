@@ -1,0 +1,11 @@
+﻿CONCLUSAO TECNICA - FLUXNET2015 SUBSET
+
+SITIOS ANALISADOS: US-Ne2 e US-Ne3
+COBERTURA DOS ARQUIVOS: 2001-2013
+ANO DO ESTUDO DA TESE: 2015
+
+RESULTADO:
+1. Os arquivos contem variaveis adequadas para comparacao externa de fluxo (NEE_VUT_REF, RECO_NT_VUT_REF, GPP_NT_VUT_REF, RECO_DT_VUT_REF, GPP_DT_VUT_REF).
+2. Os arquivos nao cobrem o ano de 2015.
+3. Portanto, US-Ne2 e US-Ne3 podem ser usados como referencia metodologica/ecofisiologica externa, mas nao como comparacao temporal direta do ano da cena Hyperion.
+4. Para comparacao temporal direta, sera necessario localizar outro sitio/agroecossistema com cobertura em 2015.

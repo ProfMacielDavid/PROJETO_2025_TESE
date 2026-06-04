@@ -1,0 +1,46 @@
+STEP11 - FIGURA METEOROLÓGICA GRIDSAT-B1
+
+Arquivo de entrada:
+STEP08_GRIDSAT_METEO_ACRE_20120709_v01.tif
+
+Arquivo gerado:
+STEP11_FIGURA_GRIDSAT_IR11_ACRE_20120709_20260429_182937_v01.png
+
+Produto:
+NOAA CDR GridSat-B1
+
+Banda visualizada:
+irwin_cdr, canal infravermelho janela próximo de 11 µm.
+
+Correção de escala aplicada:
+Temperatura_K = valor_bruto * 0.01 + 200
+
+Data/hora da cena Hyperion:
+2012-07-09 14:31:34
+
+Data/hora da imagem GridSat-B1:
+2012-07-09 15:00:00
+
+Diferença temporal:
+28.433333333333334 minutos
+
+Estatísticas recalculadas da imagem IR 11 µm:
+Média = 295.0311 K
+Mínimo = 292.4800 K
+Máximo = 298.9900 K
+Desvio-padrão = 1.5311 K
+
+Interpretação:
+A temperatura de brilho média próxima de 295.03 K no canal infravermelho janela de 11 µm indica ausência de predomínio de nuvens convectivas profundas com topos muito frios sobre a região de interesse no horário próximo à aquisição da cena Hyperion.
+
+Legenda sugerida:
+Figura X – Imagem meteorológica GridSat-B1 no canal infravermelho janela de 11 µm para 09/07/2012 às 15:00 UTC, utilizada como controle atmosférico complementar da cena EO-1 Hyperion adquirida às 14:31 UTC. Valores mais baixos de temperatura de brilho indicam topos de nuvens mais frios e potencialmente mais altos.
+
+Bloco LaTeX sugerido:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figuras/STEP11_FIGURA_GRIDSAT_IR11_ACRE_20120709_20260429_182937_v01.png}
+    \caption{Imagem meteorológica GridSat-B1 no canal infravermelho janela de 11~\textmu m para 09/07/2012 às 15:00 UTC, utilizada como controle atmosférico complementar da cena EO-1 Hyperion adquirida às 14:31 UTC. Valores mais baixos de temperatura de brilho indicam topos de nuvens mais frios e potencialmente mais altos.}
+    \label{fig:gridsat_ir11_acre_20120709}
+\end{figure}

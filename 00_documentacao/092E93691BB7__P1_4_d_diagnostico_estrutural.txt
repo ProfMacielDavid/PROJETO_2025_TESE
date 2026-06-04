@@ -1,0 +1,40 @@
+[P1.4-d] Diagnóstico estrutural do dataset (P1.3 -> P1.4)
+- arquivo analisado: data/meteorologia_p1_3_espacial.parquet
+- linhas: 744
+- colunas: 25
+
+[Colunas atuais]
+- Data
+- Hora (UTC)
+- Temp. Ins. (C)
+- Temp. Max. (C)
+- Temp. Min. (C)
+- Umi. Ins. (%)
+- Umi. Max. (%)
+- Umi. Min. (%)
+- Pto Orvalho Ins. (C)
+- Pto Orvalho Max. (C)
+- Pto Orvalho Min. (C)
+- Pressao Ins. (hPa)
+- Pressao Max. (hPa)
+- Pressao Min. (hPa)
+- Vel. Vento (m/s)
+- Dir. Vento (m/s)
+- Raj. Vento (m/s)
+- Radiacao (KJ/m²)
+- Chuva (mm)
+- hora_norm
+- date_time_raw
+- date_time
+- timezone
+- scene_id
+- key_t_x_s
+
+[Candidatos a campos auxiliares/transitórios]
+Presentes:
+- hora_norm
+- date_time_raw
+- key_t_x_s
+- timezone
+Ausentes:
+- (nenhum)

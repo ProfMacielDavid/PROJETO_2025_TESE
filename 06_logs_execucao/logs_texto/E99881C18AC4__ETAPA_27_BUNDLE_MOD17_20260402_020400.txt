@@ -1,0 +1,54 @@
+﻿TASK_ID: f4133994-112e-4bc7-a7c6-bc55768fa387
+JSON: D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\03_DOCUMENTACAO\APPEEARS_BUNDLE_MOD17_20260402_020400.json
+LOG: D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\04_LOGS\ETAPA_27_BUNDLE_MOD17_20260402_020400.txt
+
+CONTEUDO:
+{
+    "files":  [
+                  {
+                      "sha256":  "e46c5518ff4da1c44a529e05c56f711e5451d917ecb1ab6c1e13dd8382726b88",
+                      "file_id":  "19f80ee7-e1b5-4fc6-8309-143ffa017a1d",
+                      "file_name":  "MOD17-GPP-POINT-HYPERION-CENTROID-2015-MOD17A2HGF-061-results.csv",
+                      "file_size":  1534,
+                      "file_type":  "csv",
+                      "s3_url":  "s3://appeears-output/f4133994-112e-4bc7-a7c6-bc55768fa387/MOD17-GPP-POINT-HYPERION-CENTROID-2015-MOD17A2HGF-061-results.csv"
+                  },
+                  {
+                      "sha256":  "44890d6595d2327d16b3e511320b3cd3b23a1eaaf52749e88f5fd4117bd11fa5",
+                      "file_id":  "a7436795-e88b-4110-b53f-4d89f1222921",
+                      "file_name":  "MOD17-GPP-POINT-HYPERION-CENTROID-2015-granule-list.txt",
+                      "file_size":  513,
+                      "file_type":  "txt",
+                      "s3_url":  "s3://appeears-output/f4133994-112e-4bc7-a7c6-bc55768fa387/MOD17-GPP-POINT-HYPERION-CENTROID-2015-granule-list.txt"
+                  },
+                  {
+                      "sha256":  "6889e2c6bc258f57058127a0343209ade55dde134f5e156830d9dc62e409cc86",
+                      "file_id":  "e1e30bab-4729-44f1-aa91-8ecd8debd2b1",
+                      "file_name":  "MOD17-GPP-POINT-HYPERION-CENTROID-2015-request.json",
+                      "file_size":  871,
+                      "file_type":  "json",
+                      "s3_url":  "s3://appeears-output/f4133994-112e-4bc7-a7c6-bc55768fa387/MOD17-GPP-POINT-HYPERION-CENTROID-2015-request.json"
+                  },
+                  {
+                      "sha256":  "d5192fabdd369b464b51681ea2ebb6c8a557921c360aa538a1f66e09f43016f8",
+                      "file_id":  "f2de86ff-e226-4f13-9678-b8fe68645f46",
+                      "file_name":  "MOD17-GPP-POINT-HYPERION-CENTROID-2015-MOD17A2HGF-061-metadata.xml",
+                      "file_size":  18685,
+                      "file_type":  "xml",
+                      "s3_url":  "s3://appeears-output/f4133994-112e-4bc7-a7c6-bc55768fa387/MOD17-GPP-POINT-HYPERION-CENTROID-2015-MOD17A2HGF-061-metadata.xml"
+                  },
+                  {
+                      "sha256":  "7a44365eb6bd7ff961380980893e784bb2ea48ac28f0c97ad61ee3456f2727c5",
+                      "file_id":  "3d9555ae-bdf9-4082-b325-7bc7b0d741ec",
+                      "file_name":  "README.md",
+                      "file_size":  27588,
+                      "file_type":  "txt",
+                      "s3_url":  "s3://appeears-output/f4133994-112e-4bc7-a7c6-bc55768fa387/README.md"
+                  }
+              ],
+    "created":  "2026-04-02T05:16:21.951722",
+    "task_id":  "f4133994-112e-4bc7-a7c6-bc55768fa387",
+    "updated":  "2026-04-02T05:16:39.361336",
+    "bundle_type":  "point"
+}
+

@@ -1,0 +1,20 @@
+coluna,dtype_parquet,dtype_csv
+Data,object,object
+Hora (UTC),object,int64
+Temp. Ins. (C),string,object
+Temp. Max. (C),string,object
+Temp. Min. (C),string,object
+Umi. Ins. (%),string,object
+Umi. Max. (%),string,object
+Umi. Min. (%),string,object
+Pto Orvalho Ins. (C),string,object
+Pto Orvalho Max. (C),string,object
+Pto Orvalho Min. (C),string,object
+Pressao Ins. (hPa),string,object
+Pressao Max. (hPa),string,object
+Pressao Min. (hPa),string,object
+Vel. Vento (m/s),string,object
+Dir. Vento (m/s),string,object
+Raj. Vento (m/s),string,object
+Radiacao (KJ/m²),string,object
+Chuva (mm),string,object

@@ -1,0 +1,28 @@
+[P1.4-h] Saída — Limpeza estrutural mínima
+
+Entrada:
+- data/meteorologia_p1_3_espacial.parquet
+
+Saída:
+- data/meteorologia_p1_4_limpa.parquet
+
+Operação executada:
+- Remoção controlada de campos auxiliares/transitórios definidos em P1.4-e:
+  - hora_norm
+  - date_time_raw
+  - key_t_x_s
+  - timezone
+
+Garantias:
+- Nenhuma linha removida (linhas antes = linhas depois)
+- Nenhuma alteração de valores nas variáveis observacionais
+- Mantidos campos-chave para integração tempo × espaço:
+  - date_time (P1.2)
+  - scene_id (P1.3)
+
+Evidências relacionadas:
+- evidencias/P1_4/P1_4_c_entrada.txt
+- evidencias/P1_4/P1_4_d_diagnostico_estrutural.txt
+- evidencias/P1_4/P1_4_e_campos_auxiliares_definidos.txt
+- evidencias/P1_4/P1_4_f_remocao_campos_auxiliares.txt
+- evidencias/P1_4/P1_4_g_verificacao_pos_limpeza.txt

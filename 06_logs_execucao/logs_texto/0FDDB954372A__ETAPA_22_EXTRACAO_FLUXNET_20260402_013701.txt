@@ -1,0 +1,11 @@
+﻿STATUS EXTRACAO FLUXNET
+
+
+ArquivoZIP                                      Destino                                                                
+----------                                      -------                                                                
+FLX_US-Ne2_FLUXNET2015_SUBSET_2001-2013_1-4.zip D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXN...
+FLX_US-Ne3_FLUXNET2015_SUBSET_2001-2013_1-4.zip D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXN...
+FLX_AA-Flx_BIF_ALL_20200501.zip                 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXN...
+
+
+

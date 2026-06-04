@@ -1,0 +1,4 @@
+﻿STATUS: OK
+ARQUIVO_BAIXADO: D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\01_MOD17A2HGF_061\MOD17-GPP-POINT-HYPERION-CENTROID-2015-MOD17A2HGF-061-results.csv
+TAMANHO_BYTES: 1534
+URI: https://appeears.earthdatacloud.nasa.gov/api/bundle/f4133994-112e-4bc7-a7c6-bc55768fa387/19f80ee7-e1b5-4fc6-8309-143ffa017a1d

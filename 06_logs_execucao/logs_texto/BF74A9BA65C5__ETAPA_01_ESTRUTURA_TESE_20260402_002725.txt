@@ -1,0 +1,13 @@
+﻿OK - Estrutura criada em: D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa
+
+SUBPASTAS:
+
+Name                  FullName                                                                         
+----                  --------                                                                         
+01_MOD17A2HGF_061     D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\01_MOD17A2HGF_061    
+02_FLUXNET2015_SUBSET D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET
+03_DOCUMENTACAO       D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\03_DOCUMENTACAO      
+04_LOGS               D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\04_LOGS              
+
+
+

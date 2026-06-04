@@ -1,0 +1,2 @@
+system:index,area,data_gridsat_utc,data_hyperion_utc,diferenca_minutos_hyperion,estacao_referencia,irwin_cdr_max,irwin_cdr_mean,irwin_cdr_min,irwin_cdr_stdDev,irwvp_max,irwvp_mean,irwvp_min,irwvp_stdDev,produto,vschn_max,vschn_mean,vschn_min,vschn_stdDev,.geo
+0,Rio Branco AC - buffer 120 km,2012-07-09 15:00:00,2012-07-09 14:31:34,28.433333333333334,INMET A104 Rio Branco,9899,9503.25903645997,9248,153.1065857685278,5050,4926.8555684697685,4719,77.1118459976777,NOAA CDR GridSat-B1,,,,,"{""type"":""MultiPoint"",""coordinates"":[]}"

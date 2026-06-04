@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" SelectedStyle="ABNT" StyleName="ABNT">
+  <b:Source>
+    <b:Tag>BussabMorettin2017</b:Tag>
+    <b:SourceType>Book</b:SourceType>
+    <b:Guid>{7FD03D14-BFD1-4335-A271-A3991603A2E0}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+        <b:Person>
+          <b:Last>Bussab</b:Last>
+          <b:First>Wilton</b:First>
+          <b:Middle>de O.</b:Middle>
+        </b:Person>
+        <b:Person>
+          <b:Last>Morettin</b:Last>
+          <b:First>Pedro</b:First>
+          <b:Middle>A.</b:Middle>
+        </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Estatística básica</b:Title>
+    <b:Year>2017</b:Year>
+    <b:City>São Paulo</b:City>
+    <b:Publisher>Saraiva</b:Publisher>
+    <b:Edition>9</b:Edition>
+  </b:Source>
+  <b:Source>
+    <b:Tag>DellaSilva2022</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{019EA77E-0922-425C-B9FC-91276D59A649}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+        <b:Person>
+          <b:Last>Della-Silva</b:Last>
+          <b:First>J. L.</b:First>
+        </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>CO₂Flux Model Assessment and Comparison between an Airborne Hyperspectral Sensor and Orbital Multispectral Imagery in Southern Amazonia</b:Title>
+    <b:Year>2022</b:Year>
+    <b:JournalName>Sustainability</b:JournalName>
+    <b:Volume>14</b:Volume>
+    <b:Issue>9</b:Issue>
+    <b:Pages>5458</b:Pages>
+    <b:URL>https://www.mdpi.com/2071-1050/14/9/5458</b:URL>
+    <b:DOI>https://doi.org/10.3390/su14095458</b:DOI>
+    <b:Comments>Referência registrada no artigo com et al.</b:Comments>
+    <b:DayAccessed>29</b:DayAccessed>
+    <b:MonthAccessed>04</b:MonthAccessed>
+    <b:YearAccessed>2026</b:YearAccessed>
+  </b:Source>
+  <b:Source>
+    <b:Tag>GamonPenuelasField1992</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{7B9FDEE5-EA47-4E32-907C-6EC164E4383A}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+        <b:Person>
+          <b:Last>Gamon</b:Last>
+          <b:First>J. A.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Peñuelas</b:Last>
+          <b:First>J.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Field</b:Last>
+          <b:First>C. B.</b:First>
+        </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>A narrow-waveband spectral index that tracks diurnal changes in photosynthetic efficiency</b:Title>
+    <b:Year>1992</b:Year>
+    <b:JournalName>Remote Sensing of Environment</b:JournalName>
+    <b:Volume>41</b:Volume>
+    <b:Issue>1-2</b:Issue>
+    <b:Pages>35-44</b:Pages>
+    <b:DOI>https://doi.org/10.1016/0034-4257(92)90059-S</b:DOI>
+  </b:Source>
+  <b:Source>
+    <b:Tag>GorelickEtAl2017</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{014E1C51-BBE1-4795-944D-2F617812AD0B}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+        <b:Person>
+          <b:Last>Gorelick</b:Last>
+          <b:First>N.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Hancher</b:Last>
+          <b:First>M.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Dixon</b:Last>
+          <b:First>M.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Ilyushchenko</b:Last>
+          <b:First>S.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Thau</b:Last>
+          <b:First>D.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Moore</b:Last>
+          <b:First>R.</b:First>
+        </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Google Earth Engine: planetary-scale geospatial analysis for everyone</b:Title>
+    <b:Year>2017</b:Year>
+    <b:JournalName>Remote Sensing of Environment</b:JournalName>
+    <b:Volume>202</b:Volume>
+    <b:Pages>18-27</b:Pages>
+    <b:URL>https://www.sciencedirect.com/science/article/pii/S0034425717302900</b:URL>
+    <b:DOI>https://doi.org/10.1016/j.rse.2017.06.031</b:DOI>
+    <b:DayAccessed>29</b:DayAccessed>
+    <b:MonthAccessed>04</b:MonthAccessed>
+    <b:YearAccessed>2026</b:YearAccessed>
+  </b:Source>
+  <b:Source>
+    <b:Tag>INMET2012</b:Tag>
+    <b:SourceType>Report</b:SourceType>
+    <b:Guid>{A3F25F8E-09D0-44C7-A0FF-72D397C766A0}</b:Guid>
+    <b:Author>
+      <b:Corporate>Instituto Nacional de Meteorologia</b:Corporate>
+    </b:Author>
+    <b:Title>Dados históricos anuais: estação automática A104 Rio Branco, ano 2012</b:Title>
+    <b:Year>2012</b:Year>
+    <b:City>Brasília</b:City>
+    <b:Publisher>INMET</b:Publisher>
+    <b:URL>https://portal.inmet.gov.br/dadoshistoricos</b:URL>
+    <b:DayAccessed>29</b:DayAccessed>
+    <b:MonthAccessed>04</b:MonthAccessed>
+    <b:YearAccessed>2026</b:YearAccessed>
+  </b:Source>
+  <b:Source>
+    <b:Tag>IPCC2023</b:Tag>
+    <b:SourceType>Report</b:SourceType>
+    <b:Guid>{21C6D6C6-6C7A-4F2B-9084-031A6399D398}</b:Guid>
+    <b:Author>
+      <b:Corporate>IPCC</b:Corporate>
+    </b:Author>
+    <b:Title>Climate Change 2023: Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change</b:Title>
+    <b:Year>2023</b:Year>
+    <b:City>Geneva</b:City>
+    <b:Publisher>IPCC</b:Publisher>
+    <b:URL>https://www.ipcc.ch/report/ar6/syr/</b:URL>
+    <b:DOI>https://doi.org/10.59327/IPCC/AR6-9789291691647</b:DOI>
+    <b:DayAccessed>29</b:DayAccessed>
+    <b:MonthAccessed>04</b:MonthAccessed>
+    <b:YearAccessed>2026</b:YearAccessed>
+  </b:Source>
+  <b:Source>
+    <b:Tag>KnappEtAl2011</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{CC56056F-6C73-42D7-A474-C037EFCA41A1}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+        <b:Person>
+          <b:Last>Knapp</b:Last>
+          <b:First>K. R.</b:First>
+        </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Globally gridded satellite observations for climate studies</b:Title>
+    <b:Year>2011</b:Year>
+    <b:JournalName>Bulletin of the American Meteorological Society</b:JournalName>
+    <b:Volume>92</b:Volume>
+    <b:Issue>7</b:Issue>
+    <b:Pages>893-907</b:Pages>
+    <b:DOI>https://doi.org/10.1175/2011BAMS3039.1</b:DOI>
+    <b:Comments>Referência registrada no artigo com et al.</b:Comments>
+  </b:Source>
+  <b:Source>
+    <b:Tag>KnappNOAACDR2014</b:Tag>
+    <b:SourceType>Report</b:SourceType>
+    <b:Guid>{28C7F562-FDEE-4754-8FB1-20606E31DCA5}</b:Guid>
+    <b:Author>
+      <b:Corporate>KNAPP, K. R.; NOAA CDR Program</b:Corporate>
+    </b:Author>
+    <b:Title>NOAA Climate Data Record (CDR) of Gridded Satellite Data from ISCCP B1 (GridSat-B1) Infrared Channel Brightness Temperature, Version 2</b:Title>
+    <b:Year>2014</b:Year>
+    <b:City>Asheville</b:City>
+    <b:Publisher>NOAA National Centers for Environmental Information</b:Publisher>
+    <b:URL>https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00829</b:URL>
+    <b:DOI>https://doi.org/10.7289/V59P2ZKR</b:DOI>
+    <b:DayAccessed>29</b:DayAccessed>
+    <b:MonthAccessed>04</b:MonthAccessed>
+    <b:YearAccessed>2026</b:YearAccessed>
+  </b:Source>
+  <b:Source>
+    <b:Tag>MapBiomas2025</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Guid>{8BA2B32C-0457-4C10-BA17-08606594422A}</b:Guid>
+    <b:Author>
+      <b:Corporate>MapBiomas</b:Corporate>
+    </b:Author>
+    <b:Title>Projeto MapBiomas: coleção 10 da série anual de mapas de cobertura e uso da terra do Brasil</b:Title>
+    <b:Year>2025</b:Year>
+    <b:City>São Paulo</b:City>
+    <b:Publisher>MapBiomas</b:Publisher>
+    <b:URL>https://brasil.mapbiomas.org/</b:URL>
+    <b:DayAccessed>29</b:DayAccessed>
+    <b:MonthAccessed>04</b:MonthAccessed>
+    <b:YearAccessed>2026</b:YearAccessed>
+  </b:Source>
+  <b:Source>
+    <b:Tag>NOAA2024</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Guid>{6D67323A-E4DD-45D4-BE79-804EAFF13171}</b:Guid>
+    <b:Author>
+      <b:Corporate>NOAA</b:Corporate>
+    </b:Author>
+    <b:Title>NOAA CDR GRIDSAT-B1: Geostationary IR Channel Brightness Temperature</b:Title>
+    <b:Year>2024</b:Year>
+    <b:Publisher>Google Earth Engine Data Catalog</b:Publisher>
+    <b:URL>https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_GRIDSAT-B1_V2</b:URL>
+    <b:DayAccessed>29</b:DayAccessed>
+    <b:MonthAccessed>04</b:MonthAccessed>
+    <b:YearAccessed>2026</b:YearAccessed>
+  </b:Source>
+  <b:Source>
+    <b:Tag>RodriguesEtAl2013</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{26B8CC5D-C3DC-4FA2-A641-380243D7DA73}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+        <b:Person>
+          <b:Last>Rodrigues</b:Last>
+          <b:First>Celso Pinheiro</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Fontana</b:Last>
+          <b:First>Denise Cybis</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Moraes</b:Last>
+          <b:First>Osvaldo Luiz Leal de</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Roberti</b:Last>
+          <b:First>Débora Regina</b:First>
+        </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>NDVI e fluxo de CO₂ em lavoura de soja no Rio Grande do Sul</b:Title>
+    <b:Year>2013</b:Year>
+    <b:JournalName>Revista Brasileira de Meteorologia</b:JournalName>
+    <b:Volume>28</b:Volume>
+    <b:Issue>1</b:Issue>
+    <b:Pages>95-104</b:Pages>
+    <b:URL>https://www.scielo.br/j/rbmet/a/rNh3nFLkZFSzQJdRRYpP7Gt/</b:URL>
+    <b:DOI>https://doi.org/10.1590/S0102-77862013000100011</b:DOI>
+    <b:DayAccessed>29</b:DayAccessed>
+    <b:MonthAccessed>04</b:MonthAccessed>
+    <b:YearAccessed>2026</b:YearAccessed>
+  </b:Source>
+  <b:Source>
+    <b:Tag>RouseEtAl1974</b:Tag>
+    <b:SourceType>ConferenceProceedings</b:SourceType>
+    <b:Guid>{DF360D7A-158D-4ABA-843B-9B603DFF4D8F}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+        <b:Person>
+          <b:Last>Rouse</b:Last>
+          <b:First>J. W.</b:First>
+          <b:Middle>Junior</b:Middle>
+        </b:Person>
+        <b:Person>
+          <b:Last>Haas</b:Last>
+          <b:First>R. H.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Schell</b:Last>
+          <b:First>J. A.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Deering</b:Last>
+          <b:First>D. W.</b:First>
+        </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Monitoring vegetation systems in the Great Plains with ERTS</b:Title>
+    <b:Year>1974</b:Year>
+    <b:Pages>309-317</b:Pages>
+    <b:City>Washington</b:City>
+    <b:Publisher>NASA</b:Publisher>
+    <b:BookTitle>Third Earth Resources Technology Satellite-1 Symposium</b:BookTitle>
+    <b:URL>https://ntrs.nasa.gov/api/citations/19740022614/downloads/19740022614.pdf</b:URL>
+    <b:DayAccessed>29</b:DayAccessed>
+    <b:MonthAccessed>04</b:MonthAccessed>
+    <b:YearAccessed>2026</b:YearAccessed>
+  </b:Source>
+  <b:Source>
+    <b:Tag>USGS2019</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Guid>{263F3989-6E7D-4A0C-9AAE-3983E9D7B6F5}</b:Guid>
+    <b:Author>
+      <b:Corporate>United States Geological Survey</b:Corporate>
+    </b:Author>
+    <b:Title>USGS EROS Archive: Earth Observing One (EO-1) Hyperion</b:Title>
+    <b:Year>2019</b:Year>
+    <b:City>Reston</b:City>
+    <b:Publisher>USGS</b:Publisher>
+    <b:URL>https://www.usgs.gov/centers/eros/science/usgs-eros-archive-earth-observing-one-eo-1-hyperion</b:URL>
+    <b:DayAccessed>29</b:DayAccessed>
+    <b:MonthAccessed>04</b:MonthAccessed>
+    <b:YearAccessed>2026</b:YearAccessed>
+  </b:Source>
+  <b:Source>
+    <b:Tag>USGSGEE2017</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Guid>{25BE015E-933E-468C-9EEB-9F03FEE7A4E1}</b:Guid>
+    <b:Author>
+      <b:Corporate>USGS; Google Earth Engine</b:Corporate>
+    </b:Author>
+    <b:Title>EO-1 Hyperion Hyperspectral Imager</b:Title>
+    <b:Year>2017</b:Year>
+    <b:Publisher>Google Earth Engine Data Catalog</b:Publisher>
+    <b:URL>https://developers.google.com/earth-engine/datasets/catalog/EO1_HYPERION</b:URL>
+    <b:DayAccessed>29</b:DayAccessed>
+    <b:MonthAccessed>04</b:MonthAccessed>
+    <b:YearAccessed>2026</b:YearAccessed>
+  </b:Source>
+  <b:Source>
+    <b:Tag>ZimermannEtAl2007</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Guid>{73053E57-D8F1-4688-AC89-0A60B579AD63}</b:Guid>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+        <b:Person>
+          <b:Last>Zimermann</b:Last>
+          <b:First>H. R.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Carneiro</b:Last>
+          <b:First>J. V.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Moraes</b:Last>
+          <b:First>O. L. L.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Escobar</b:Last>
+          <b:First>L. F.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Chavez</b:Last>
+          <b:First>L. F.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Fiorin</b:Last>
+          <b:First>J.</b:First>
+        </b:Person>
+        <b:Person>
+          <b:Last>Amado</b:Last>
+          <b:First>T. J. C.</b:First>
+        </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:Title>Análise do fluxo de CO₂ sobre uma cultura de soja</b:Title>
+    <b:Year>2007</b:Year>
+    <b:JournalName>Ciência e Natura</b:JournalName>
+    <b:Volume>29</b:Volume>
+    <b:Issue>edição especial</b:Issue>
+    <b:Pages>91-94</b:Pages>
+    <b:URL>https://periodicos.ufsm.br/cienciaenatura/article/view/9815</b:URL>
+    <b:DOI>https://doi.org/10.5902/2179460X9815</b:DOI>
+    <b:DayAccessed>29</b:DayAccessed>
+    <b:MonthAccessed>04</b:MonthAccessed>
+    <b:YearAccessed>2026</b:YearAccessed>
+  </b:Source>
+</b:Sources>

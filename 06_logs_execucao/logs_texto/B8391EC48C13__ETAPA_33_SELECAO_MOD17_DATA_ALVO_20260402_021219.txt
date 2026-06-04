@@ -1,0 +1,23 @@
+﻿ARQUIVO_RESUMO: D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\01_MOD17A2HGF_061\MOD17_GPP_RESUMO_20260402_021032.csv
+DATA_ALVO: 2015-12-29
+ARQUIVO_SAIDA: D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\01_MOD17A2HGF_061\MOD17_GPP_REFERENCIA_CENA_20151229_20260402_021219.csv
+
+REGISTRO_SELECIONADO:
+
+
+ID                                                : HYPERION_FOOTPRINT_CENTROID
+Latitude                                          : -12.91465
+Longitude                                         : -52.3765
+Date                                              : 2015-12-27
+MODIS_Tile                                        : h12v10
+MOD17A2HGF_061_Gpp_500m                           : 0.0481
+MOD17A2HGF_061_Psn_QC_500m_MODLAND_Description    : Other quality
+MOD17A2HGF_061_Psn_QC_500m_CloudState_Description : Significant clouds WERE present
+MOD17A2HGF_061_Psn_QC_500m_SCF_QC_Description     : Main (RT) method failed due to problems other than geometry, 
+                                                    empirical algorithm
+DateObj                                           : 27/12/2015 00:00:00
+DaysDiff                                          : 2
+
+
+
+

@@ -1,0 +1,31 @@
+﻿{
+    "task_type":  "point",
+    "params":  {
+                   "dates":  [
+                                 {
+                                     "startDate":  "12-25-2015",
+                                     "endDate":  "01-01-2016"
+                                 }
+                             ],
+                   "coordinates":  [
+                                       {
+                                           "longitude":  -52.3765,
+                                           "id":  "HYPERION_FOOTPRINT_CENTROID",
+                                           "latitude":  -12.91465
+                                       }
+                                   ],
+                   "layers":  [
+                                  {
+                                      "layer":  "Gpp_500m",
+                                      "product":  "MOD17A2HGF.061"
+                                  }
+                              ],
+                   "output":  {
+                                  "projection":  "geographic",
+                                  "format":  {
+                                                 "type":  "geotiff"
+                                             }
+                              }
+               },
+    "task_name":  "MOD17_GPP_POINT_HYPERION_CENTROID_2015"
+}

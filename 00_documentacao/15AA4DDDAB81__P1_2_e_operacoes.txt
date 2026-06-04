@@ -1,0 +1,5 @@
+[P1.2-e] Operações previstas (sem execução neste subitem)
+f) Normalização do campo hora (HHMM -> HH:MM)
+g) Conversão para objeto temporal único (Data + Hora_normalizada)
+h) Criação do campo date_time no padrão ISO 8601
+i) Manutenção do fuso UTC (sem conversão; apenas preservação/declaração)

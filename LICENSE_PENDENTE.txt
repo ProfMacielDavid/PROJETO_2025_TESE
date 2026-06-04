@@ -1,0 +1,10 @@
+﻿LICENÇA PENDENTE
+
+Antes de tornar o repositório público, definir:
+
+1. licença do código;
+2. licença da documentação;
+3. condições de uso dos dados processados;
+4. restrições de dados externos, incluindo Hyperion, MapBiomas, ERA5-Land, INMET, MODIS, FLUXNET e demais fontes.
+
+Até essa definição, recomenda-se manter o repositório privado.

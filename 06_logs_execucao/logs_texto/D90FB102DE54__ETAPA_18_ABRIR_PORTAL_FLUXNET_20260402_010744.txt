@@ -1,0 +1,4 @@
+﻿STATUS: OK
+DOC: D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\03_DOCUMENTACAO\FLUXNET2015_SUBSET_ACESSO_20260402_010744.txt
+LOG: D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\04_LOGS\ETAPA_18_ABRIR_PORTAL_FLUXNET_20260402_010744.txt
+URL ABERTA: https://fluxnet.org/data/download-data/

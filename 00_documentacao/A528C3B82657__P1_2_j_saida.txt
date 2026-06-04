@@ -1,0 +1,1 @@
+[P1.2-j] Saída da Etapa P1.2\n- arquivo parquet final gerado\n- caminho: data/meteorologia_p1_2_temporal.parquet\n- conteúdo mínimo esperado: date_time (ISO 8601 UTC) e série ordenável\n

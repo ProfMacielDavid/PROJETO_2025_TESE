@@ -1,0 +1,16 @@
+﻿?? .gitignore
+?? 00_documentacao/
+?? 02_dados_processados/
+?? 02_modelo_hibrido_isba_svat_xgboost_fluxo_co2_soja_amazonia/
+?? 03_scripts/
+?? 06_logs_execucao/
+?? 07_figuras_tese/
+?? 08_tese_artigos/
+?? 09_apresentacao_qualificacao/
+?? CITATION.cff
+?? GITIGNORE_SUGERIDO.txt
+?? LICENSE_PENDENTE.txt
+?? README.md
+?? README_BASE_PRE_GITHUB.md
+?? environment.yml
+?? requirements.txt

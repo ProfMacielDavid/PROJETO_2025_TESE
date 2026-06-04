@@ -1,0 +1,14 @@
+[P1.4-c] Entrada — Limpeza estrutural mínima
+
+Arquivo de entrada:
+- Caminho: data/meteorologia_p1_3_espacial.parquet
+- Origem: Etapa P1.3 — Inserção da chave espacial
+
+Conteúdo esperado:
+- Campo temporal: date_time (ISO 8601 UTC)
+- Chave espacial: scene_id
+- Variáveis meteorológicas originais
+- Possíveis campos auxiliares transitórios de etapas anteriores
+
+Observação:
+Nenhuma modificação de valores ou registros ocorre nesta etapa.

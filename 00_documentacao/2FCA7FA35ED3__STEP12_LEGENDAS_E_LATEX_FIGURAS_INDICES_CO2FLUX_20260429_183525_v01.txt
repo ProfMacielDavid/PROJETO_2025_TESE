@@ -1,0 +1,82 @@
+STEP12 - FIGURAS DOS ÍNDICES ESPECTRAIS E DO CO2FLUX
+
+Arquivo de entrada:
+STEP06_HYPERION_ACRE_20120709_INDICES_CO2FLUX_v01.tif
+
+Sistema de referência do GeoTIFF:
+EPSG:32719
+
+Limites do raster:
+BoundingBox(left=569040.0206510979, bottom=8896496.130867718, right=598819.7673809815, top=8994930.010329105)
+
+Bandas do GeoTIFF:
+Banda 1 = NDVI
+Banda 2 = PRI
+Banda 3 = sPRI
+Banda 4 = CO2Flux
+
+Estatísticas recalculadas a partir do GeoTIFF:
+
+NDVI:
+n = 53
+mean = 0.704064362454
+min = 0.366759002209
+max = 0.783160328865
+std = 0.130188919015
+
+PRI:
+n = 53
+mean = 0.032760075838
+min = 0.017487047240
+max = 0.043849438429
+std = 0.006648624693
+
+sPRI:
+n = 53
+mean = 0.516380035652
+min = 0.508743524551
+max = 0.521924734116
+std = 0.003324311638
+
+CO2Flux:
+n = 53
+mean = -10.458159692445
+min = -13.258663177490
+max = 1.276682972908
+std = 4.521038246404
+
+Arquivos PNG gerados:
+STEP12_FIGURA_NDVI_HYPERION_ACRE_20120709_20260429_183525_v01.png
+STEP12_FIGURA_PRI_HYPERION_ACRE_20120709_20260429_183525_v01.png
+STEP12_FIGURA_sPRI_HYPERION_ACRE_20120709_20260429_183525_v01.png
+STEP12_FIGURA_CO2FLUX_HYPERION_ACRE_20120709_20260429_183525_v01.png
+
+Blocos LaTeX sugeridos:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.82\textwidth]{figuras/STEP12_FIGURA_NDVI_HYPERION_ACRE_20120709_20260429_183525_v01.png}
+    \caption{Distribuição espacial do NDVI nos pixels agrícolas extraídos da cena EO-1 Hyperion de 09/07/2012, no entorno de Rio Branco, Acre.}
+    \label{fig:ndvi_hyperion_acre_20120709}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.82\textwidth]{figuras/STEP12_FIGURA_PRI_HYPERION_ACRE_20120709_20260429_183525_v01.png}
+    \caption{Distribuição espacial do PRI nos pixels agrícolas extraídos da cena EO-1 Hyperion de 09/07/2012, no entorno de Rio Branco, Acre.}
+    \label{fig:pri_hyperion_acre_20120709}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.82\textwidth]{figuras/STEP12_FIGURA_sPRI_HYPERION_ACRE_20120709_20260429_183525_v01.png}
+    \caption{Distribuição espacial do PRI reescalonado (sPRI) nos pixels agrícolas extraídos da cena EO-1 Hyperion de 09/07/2012, no entorno de Rio Branco, Acre.}
+    \label{fig:spri_hyperion_acre_20120709}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.82\textwidth]{figuras/STEP12_FIGURA_CO2FLUX_HYPERION_ACRE_20120709_20260429_183525_v01.png}
+    \caption{Distribuição espacial do CO\textsubscript{2}Flux estimado nos pixels agrícolas extraídos da cena EO-1 Hyperion de 09/07/2012, no entorno de Rio Branco, Acre.}
+    \label{fig:co2flux_hyperion_acre_20120709}
+\end{figure}
+
+Observação metodológica:
+As figuras representam somente os pixels agrícolas válidos dentro da faixa Hyperion e da máscara MapBiomas 2012. Portanto, devem ser interpretadas como produto de estudo piloto, e não como extrapolação regional.

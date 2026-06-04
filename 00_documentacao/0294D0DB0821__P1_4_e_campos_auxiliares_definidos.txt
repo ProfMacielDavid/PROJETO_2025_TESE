@@ -1,0 +1,37 @@
+[P1.4-e] Definição dos campos auxiliares para remoção controlada
+
+Com base no diagnóstico estrutural (P1.4-d), foram identificados os seguintes campos
+auxiliares ou transitórios, utilizados apenas como suporte intermediário nas etapas
+anteriores (P1.2 e P1.3):
+
+Campos definidos para remoção na Etapa P1.4-f:
+
+1) hora_norm
+   - Origem: Etapa P1.2
+   - Função: normalização intermediária do campo hora
+   - Situação: não necessário após criação de date_time
+
+2) date_time_raw
+   - Origem: Etapa P1.2
+   - Função: campo intermediário de concatenação Data + Hora
+   - Situação: substituído definitivamente por date_time (ISO 8601 UTC)
+
+3) key_t_x_s
+   - Origem: Etapa P1.3
+   - Função: evidência técnica da chave composta (tempo × espaço)
+   - Situação: não mantido na tabela final, pois a chave composta é lógica
+
+4) timezone
+   - Origem: Etapa P1.2
+   - Função: declaração explícita de fuso
+   - Situação: redundante, pois date_time já está em UTC (Z)
+
+Campos preservados explicitamente:
+- date_time (chave temporal)
+- scene_id (chave espacial)
+- Variáveis meteorológicas originais
+
+Observação metodológica:
+Nenhuma modificação de valores ou registros ocorre nesta etapa. Trata-se apenas
+da definição formal e documentada dos campos auxiliares a serem removidos
+na próxima subetapa (P1.4-f).

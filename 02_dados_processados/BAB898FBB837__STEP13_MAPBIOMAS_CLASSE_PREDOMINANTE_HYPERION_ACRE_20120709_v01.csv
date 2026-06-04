@@ -1,0 +1,6 @@
+system:index,area_ha,classe_mapbiomas,nome_classe,.geo
+4,4.933841265869137,41,Outras lavouras temporarias,"{""type"":""MultiPoint"",""coordinates"":[]}"
+0,0.0,18,Agricultura,"{""type"":""MultiPoint"",""coordinates"":[]}"
+1,0.0,19,Lavoura temporaria,"{""type"":""MultiPoint"",""coordinates"":[]}"
+2,0.0,39,Soja,"{""type"":""MultiPoint"",""coordinates"":[]}"
+3,0.0,40,Arroz,"{""type"":""MultiPoint"",""coordinates"":[]}"

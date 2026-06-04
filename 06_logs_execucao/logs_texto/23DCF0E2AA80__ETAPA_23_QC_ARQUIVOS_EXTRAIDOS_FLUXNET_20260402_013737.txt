@@ -1,0 +1,27 @@
+﻿QC ARQUIVOS EXTRAIDOS FLUXNET
+
+
+Pasta         Nome                                               Extensao  Tamanho Caminho                                                                                                                                           
+-----         ----                                               --------  ------- -------                                                                                                                                           
+BIF_ALL       FLX_AA-Flx_BIF_DD_20200501.xlsx                    .xlsx    12687140 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\BIF_ALL\FLX_AA-Flx_BIF_DD_20200501.xlsx                         
+BIF_ALL       FLX_AA-Flx_BIF_HH_20200501.xlsx                    .xlsx     8954748 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\BIF_ALL\FLX_AA-Flx_BIF_HH_20200501.xlsx                         
+BIF_ALL       FLX_AA-Flx_BIF_MM_20200501.xlsx                    .xlsx    12414906 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\BIF_ALL\FLX_AA-Flx_BIF_MM_20200501.xlsx                         
+BIF_ALL       FLX_AA-Flx_BIF_WW_20200501.xlsx                    .xlsx    12416597 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\BIF_ALL\FLX_AA-Flx_BIF_WW_20200501.xlsx                         
+BIF_ALL       FLX_AA-Flx_BIF_YY_20200501.xlsx                    .xlsx    11471816 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\BIF_ALL\FLX_AA-Flx_BIF_YY_20200501.xlsx                         
+US-Ne2_SUBSET FLX_US-Ne2_FLUXNET2015_AUXMETEO_2001-2013_1-4.csv  .csv         1006 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\US-Ne2_SUBSET\FLX_US-Ne2_FLUXNET2015_AUXMETEO_2001-2013_1-4.csv 
+US-Ne2_SUBSET FLX_US-Ne2_FLUXNET2015_AUXNEE_2001-2013_1-4.csv    .csv        84731 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\US-Ne2_SUBSET\FLX_US-Ne2_FLUXNET2015_AUXNEE_2001-2013_1-4.csv   
+US-Ne2_SUBSET FLX_US-Ne2_FLUXNET2015_SUBSET_DD_2001-2013_1-4.csv .csv      2622401 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\US-Ne2_SUBSET\FLX_US-Ne2_FLUXNET2015_SUBSET_DD_2001-2013_1-4.csv
+US-Ne2_SUBSET FLX_US-Ne2_FLUXNET2015_SUBSET_HR_2001-2013_1-4.csv .csv     48847582 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\US-Ne2_SUBSET\FLX_US-Ne2_FLUXNET2015_SUBSET_HR_2001-2013_1-4.csv
+US-Ne2_SUBSET FLX_US-Ne2_FLUXNET2015_SUBSET_MM_2001-2013_1-4.csv .csv        91442 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\US-Ne2_SUBSET\FLX_US-Ne2_FLUXNET2015_SUBSET_MM_2001-2013_1-4.csv
+US-Ne2_SUBSET FLX_US-Ne2_FLUXNET2015_SUBSET_WW_2001-2013_1-4.csv .csv       385701 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\US-Ne2_SUBSET\FLX_US-Ne2_FLUXNET2015_SUBSET_WW_2001-2013_1-4.csv
+US-Ne2_SUBSET FLX_US-Ne2_FLUXNET2015_SUBSET_YY_2001-2013_1-4.csv .csv         8651 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\US-Ne2_SUBSET\FLX_US-Ne2_FLUXNET2015_SUBSET_YY_2001-2013_1-4.csv
+US-Ne3_SUBSET FLX_US-Ne3_FLUXNET2015_AUXMETEO_2001-2013_1-4.csv  .csv         1006 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\US-Ne3_SUBSET\FLX_US-Ne3_FLUXNET2015_AUXMETEO_2001-2013_1-4.csv 
+US-Ne3_SUBSET FLX_US-Ne3_FLUXNET2015_AUXNEE_2001-2013_1-4.csv    .csv        84851 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\US-Ne3_SUBSET\FLX_US-Ne3_FLUXNET2015_AUXNEE_2001-2013_1-4.csv   
+US-Ne3_SUBSET FLX_US-Ne3_FLUXNET2015_SUBSET_DD_2001-2013_1-4.csv .csv      2639952 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\US-Ne3_SUBSET\FLX_US-Ne3_FLUXNET2015_SUBSET_DD_2001-2013_1-4.csv
+US-Ne3_SUBSET FLX_US-Ne3_FLUXNET2015_SUBSET_HR_2001-2013_1-4.csv .csv     48675985 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\US-Ne3_SUBSET\FLX_US-Ne3_FLUXNET2015_SUBSET_HR_2001-2013_1-4.csv
+US-Ne3_SUBSET FLX_US-Ne3_FLUXNET2015_SUBSET_MM_2001-2013_1-4.csv .csv        92717 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\US-Ne3_SUBSET\FLX_US-Ne3_FLUXNET2015_SUBSET_MM_2001-2013_1-4.csv
+US-Ne3_SUBSET FLX_US-Ne3_FLUXNET2015_SUBSET_WW_2001-2013_1-4.csv .csv       389237 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\US-Ne3_SUBSET\FLX_US-Ne3_FLUXNET2015_SUBSET_WW_2001-2013_1-4.csv
+US-Ne3_SUBSET FLX_US-Ne3_FLUXNET2015_SUBSET_YY_2001-2013_1-4.csv .csv         8766 D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\02_FLUXNET2015_SUBSET\US-Ne3_SUBSET\FLX_US-Ne3_FLUXNET2015_SUBSET_YY_2001-2013_1-4.csv
+
+
+

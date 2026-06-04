@@ -1,0 +1,57 @@
+﻿{
+    "tier":  1,
+    "error":  null,
+    "params":  {
+                   "dates":  [
+                                 {
+                                     "endDate":  "01-01-2016",
+                                     "startDate":  "12-25-2015"
+                                 }
+                             ],
+                   "layers":  [
+                                  {
+                                      "layer":  "Gpp_500m",
+                                      "product":  "MOD17A2HGF.061"
+                                  }
+                              ],
+                   "output":  {
+                                  "format":  {
+                                                 "type":  "geotiff"
+                                             },
+                                  "projection":  "geographic"
+                              },
+                   "coordinates":  [
+                                       {
+                                           "id":  "HYPERION_FOOTPRINT_CENTROID",
+                                           "latitude":  -12.91465,
+                                           "longitude":  -52.3765
+                                       }
+                                   ]
+               },
+    "status":  "done",
+    "crashed":  false,
+    "created":  "2026-04-02T04:47:48.344419",
+    "task_id":  "f4133994-112e-4bc7-a7c6-bc55768fa387",
+    "updated":  "2026-04-02T05:16:51.048856",
+    "user_id":  "david.maciel@unir.br",
+    "attempts":  1,
+    "estimate":  {
+                     "request_size":  1,
+                     "request_tier":  0,
+                     "request_memory":  1
+                 },
+    "retry_at":  null,
+    "completed":  "2026-04-02T05:16:50.865917",
+    "has_swath":  false,
+    "task_name":  "MOD17_GPP_POINT_HYPERION_CENTROID_2015",
+    "task_type":  "point",
+    "api_version":  "v1",
+    "svc_version":  "3.115",
+    "web_version":  null,
+    "cached_files":  {
+
+                     },
+    "has_nsidc_daac":  false,
+    "worker_version":  "3.115",
+    "expires_on":  "2026-05-02T05:16:51.048856"
+}

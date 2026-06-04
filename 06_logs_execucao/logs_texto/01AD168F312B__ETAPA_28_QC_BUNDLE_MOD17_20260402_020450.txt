@@ -1,0 +1,22 @@
+﻿ARQUIVO_BUNDLE: D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\03_DOCUMENTACAO\APPEEARS_BUNDLE_MOD17_20260402_020400.json
+
+TIPO_TOPO: System.Management.Automation.PSCustomObject
+PROPRIEDADES_TOPO:
+bundle_type
+created
+files
+task_id
+updated
+
+[bundle_type] TIPO=System.String
+
+[created] TIPO=System.String
+
+[files] TIPO=System.Object[]
+  QTDE_ITENS: 5
+  ITEM0: {"sha256":"e46c5518ff4da1c44a529e05c56f711e5451d917ecb1ab6c1e13dd8382726b88","file_id":"19f80ee7-e1b5-4fc6-8309-143ffa017a1d","file_name":"MOD17-GPP-POINT-HYPERION-CENTROID-2015-MOD17A2HGF-061-results.csv","file_size":1534,"file_type":"csv","s3_url":"s3://appeears-output/f4133994-112e-4bc7-a7c6-bc55768fa387/MOD17-GPP-POINT-HYPERION-CENTROID-2015-MOD17A2HGF-061-results.csv"}
+
+[task_id] TIPO=System.String
+
+[updated] TIPO=System.String
+

@@ -1,0 +1,11 @@
+﻿STATUS: OK
+ARQUIVO_METADATA: D:\TESE_Prof. Maciel_até 19-01-2026\dados_validacao_externa\03_DOCUMENTACAO\MOD17A2HGF_061_METADATA_20260402_002937.json
+
+TIPO_JSON: System.Management.Automation.PSCustomObject
+
+
+PROPRIEDADES_DISPONIVEIS:
+Gpp_500m
+Psn_QC_500m
+PsnNet_500m
+
