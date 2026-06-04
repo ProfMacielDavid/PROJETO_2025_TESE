@@ -1,0 +1,3 @@
+﻿?? 00_documentacao/inventarios/00_resumo_git_local_organizado_20260604_130511.txt
+?? 00_documentacao/inventarios/04_git_status_final_20260604_131051.txt
+?? COMANDOS_PUSH_GITHUB_DEPOIS.txt

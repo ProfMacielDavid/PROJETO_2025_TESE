@@ -1,0 +1,16 @@
+﻿# COMANDOS PARA ENVIAR AO GITHUB DEPOIS
+
+# 1. Criar um repositório PRIVADO no GitHub com o nome:
+tese-modelagem-hibrida-co2-soja-amazonia
+
+# 2. Abrir PowerShell nesta pasta:
+cd "G:\001_TESE_Prof. Maciel_até 19-01-2026\00_CONSOLIDADO_PRE_GITHUB_TESE_20260604_090548"
+
+# 3. Conferir status:
+git status
+
+# 4. Adicionar remote substituindo SEU_USUARIO:
+git remote add origin https://github.com/SEU_USUARIO/tese-modelagem-hibrida-co2-soja-amazonia.git
+
+# 5. Enviar:
+git push -u origin main

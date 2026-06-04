@@ -1,0 +1,50 @@
+﻿GIT LOCAL ORGANIZADO - TESE PROF. MACIEL
+
+Data:
+06/04/2026 13:06:18
+
+Pasta usada:
+G:\001_TESE_Prof. Maciel_até 19-01-2026\00_CONSOLIDADO_PRE_GITHUB_TESE_20260604_090548
+
+Tipo de base:
+CONSOLIDADO_PRE_GITHUB_EXISTENTE
+
+Modelo oficial:
+Modelo Híbrido ISBA/SVAT-XGBoost para Determinação do Fluxo de CO2 em Cultivares de Soja na Amazônia Legal
+
+Pasta oficial do modelo:
+02_modelo_hibrido_isba_svat_xgboost_fluxo_co2_soja_amazonia
+
+Commit realizado:
+SIM
+
+Último commit:
+f01f589 Organiza repositorio cientifico inicial da tese
+
+Remote atual:
+
+
+Arquivos gerados:
+G:\001_TESE_Prof. Maciel_até 19-01-2026\00_CONSOLIDADO_PRE_GITHUB_TESE_20260604_090548\README.md
+G:\001_TESE_Prof. Maciel_até 19-01-2026\00_CONSOLIDADO_PRE_GITHUB_TESE_20260604_090548\.gitignore
+G:\001_TESE_Prof. Maciel_até 19-01-2026\00_CONSOLIDADO_PRE_GITHUB_TESE_20260604_090548\CITATION.cff
+G:\001_TESE_Prof. Maciel_até 19-01-2026\00_CONSOLIDADO_PRE_GITHUB_TESE_20260604_090548\requirements.txt
+G:\001_TESE_Prof. Maciel_até 19-01-2026\00_CONSOLIDADO_PRE_GITHUB_TESE_20260604_090548\environment.yml
+G:\001_TESE_Prof. Maciel_até 19-01-2026\00_CONSOLIDADO_PRE_GITHUB_TESE_20260604_090548\02_modelo_hibrido_isba_svat_xgboost_fluxo_co2_soja_amazonia\README_MODELO_OFICIAL.md
+G:\001_TESE_Prof. Maciel_até 19-01-2026\00_CONSOLIDADO_PRE_GITHUB_TESE_20260604_090548\02_modelo_hibrido_isba_svat_xgboost_fluxo_co2_soja_amazonia\ORDEM_EXECUCAO_MODELO.csv
+G:\001_TESE_Prof. Maciel_até 19-01-2026\00_CONSOLIDADO_PRE_GITHUB_TESE_20260604_090548\00_documentacao\inventarios\01_git_status_antes_20260604_130511.txt
+G:\001_TESE_Prof. Maciel_até 19-01-2026\00_CONSOLIDADO_PRE_GITHUB_TESE_20260604_090548\00_documentacao\inventarios\02_git_status_depois_20260604_130511.txt
+G:\001_TESE_Prof. Maciel_até 19-01-2026\00_CONSOLIDADO_PRE_GITHUB_TESE_20260604_090548\00_documentacao\inventarios\03_log_git_comandos_20260604_130511.txt
+G:\001_TESE_Prof. Maciel_até 19-01-2026\00_CONSOLIDADO_PRE_GITHUB_TESE_20260604_090548\COMANDOS_PUSH_GITHUB_DEPOIS.txt
+
+Status final:
+?? 00_documentacao/inventarios/02_git_status_depois_20260604_130511.txt
+?? GITIGNORE_SUGERIDO.txt
+?? README_BASE_PRE_GITHUB.md
+
+
+IMPORTANTE:
+Nenhum push foi executado.
+Nenhum arquivo foi apagado.
+Nenhum arquivo foi movido.
+O Git foi organizado apenas localmente.
